@@ -13,7 +13,7 @@ html{
 /* CLASSI */
 .container{
     width: 1024px;
-    margin: 10px auto 10px auto;
+    margin: 0 auto;
 }
 
 .clearfix::after{
@@ -34,6 +34,21 @@ html{
     text-decoration: none;
 }
 
+.main_menu{
+    margin: 25px 0;
+}
+
+.main_menu ul li a{
+    padding-right: 5px; 
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+}
+
+.main_menu ul li a:hover{ 
+    color: black;
+}
+
+
 /* TAG */
 footer{
     height: 100px;
@@ -46,9 +61,11 @@ section{
 
 /* ID */
 #logo{
-    height: 50px;
+    height: 60px;
+    object-fit: contain;
     float: left;
-    border-right: 0.2px solid grey;
+    border-right: 0.2px solid rgba(211, 211, 211, 0.5);
+    padding-right: 15px;
 }
 
 /* DEBUG */
